@@ -1,5 +1,6 @@
 from selectolax.parser import HTMLParser
 import httpx
+import json
 
 url = "https://www.apple.com/shop/iphone/accessories"
 headers = {
@@ -11,5 +12,11 @@ html = HTMLParser(resp.text)
 
 products = html.css(".as-pinwheel-tiletitle a")
 
-for product in products:
-    print(product.css_first(".as-pinwheel-tilelink").text())
+prod_dict = {}
+for num, product in enumerate(products):
+    entry = product.css_first("a.as-pinwheel-tilelink").text().strip()
+    prod_dict[num] = entry
+
+with open("my_json.json", "w", encoding='utf-8') as file:
+    json.dump(prod_dict, file, ensure_ascii=False, indent=4)
+
