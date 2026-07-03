@@ -1,47 +1,182 @@
 {
-    "0": "iPhone 17 Pro TechWoven Case with MagSafe – Blue",
-    "1": "iPhone 17 Silicone Case with MagSafe – Bright Guava",
-    "2": "iPhone 17e Silicone Case with MagSafe – Light Moss",
-    "3": "Crossbody Strap - Bright Guava",
-    "4": "iPhone Air Case with MagSafe – Frost",
-    "5": "iPhone Air Bumper – Light Blue",
-    "6": "Herschel Cloud Sling for iPhone",
-    "7": "iPhone FineWoven Wallet with MagSafe – Navy",
-    "8": "iPhone 17 Pro Silicone Case with MagSafe – Orange",
-    "9": "Crossbody Strap – Orange",
-    "10": "iPhone 17 Pro Max TechWoven Case with MagSafe – Green",
-    "11": "iPhone 17 Clear Case with MagSafe",
-    "12": "iPhone Air Case with MagSafe – Shadow",
-    "13": "iPhone 17e Clear Case with MagSafe",
-    "14": "Beats iPhone 17 Rugged Case with MagSafe and Camera Control – Sierra Orange",
-    "15": "Belkin UltraCharge Pro 3-in-1 Magnetic Charging Dock",
-    "16": "MagSafe Charger (1 m)",
-    "17": "Twelve South PowerClip Power Bank & Charger",
-    "18": "240W USB-C Charge Cable (2 m)",
-    "19": "40W Dynamic Power Adapter with 60W Max",
-    "20": "iPhone Air MagSafe Battery",
-    "21": "Belkin BoostCharge Pro Power Bank 10K with Apple Watch Charger",
-    "22": "35W Dual USB-C Port Compact Power Adapter",
-    "23": "mophie Roam 3‑in‑1 Travel Charger",
-    "24": "USB-C to 3.5 mm Headphone Jack Adapter",
-    "25": "PopSockets Kick-Out Grip & Stand (MagSafe compatible)",
-    "26": "Tech21 FlexQuartz Case for iPhone 17 Pro (MagSafe compatible)",
-    "27": "MOFT Snap Field MagSafe Wallet Stand",
-    "28": "Scosche StrikeLine USB-C to USB-C Cable (2 m)",
-    "29": "Beats iPhone 17 Kickstand Case with MagSafe and Camera Control – Pebble Pink",
-    "30": "Nimble SharePower Portable Battery Charger",
-    "31": "mophie Check Case for iPhone 17 Pro Max",
-    "32": "Beats iPhone 17 Pro Rugged Case with MagSafe and Camera Control – Everest Black",
-    "33": "Beats USB-C to USB-C Woven Cable (1.5 m / 5 ft) – Surge Stone",
-    "34": "Belkin UltraGlass 2 Privacy Screen Protector for iPhone 17 Pro",
-    "35": "mophie Loop AirTag Case",
-    "36": "AirTag",
-    "37": "AirTag FineWoven Key Ring – Fox Orange",
-    "38": "mophie Loop AirTag Case (4 Pack)",
-    "39": "AirTag 4 pack",
-    "40": "mophie Knit Puck for AirTag (4 Pack)",
-    "41": "mophie Knit Puck for AirTag",
-    "42": "Herschel AirTag Charm",
-    "43": "Tech21 EvoPop Case for AirTag (2 pack) – Gold & Clear",
-    "44": "Tech21 EvoClear Case for AirTag"
+    "0": {
+        "title": "iPhone 17 Pro TechWoven Case with MagSafe – Blue",
+        "price": "$59.00"
+    },
+    "1": {
+        "title": "iPhone 17 Silicone Case with MagSafe – Bright Guava",
+        "price": "$49.00"
+    },
+    "2": {
+        "title": "iPhone 17e Silicone Case with MagSafe – Light Moss",
+        "price": "$49.00"
+    },
+    "3": {
+        "title": "Crossbody Strap - Bright Guava",
+        "price": "$59.00"
+    },
+    "4": {
+        "title": "iPhone Air Case with MagSafe – Frost",
+        "price": "$49.00"
+    },
+    "5": {
+        "title": "iPhone Air Bumper – Light Blue",
+        "price": "$39.00"
+    },
+    "6": {
+        "title": "Herschel Cloud Sling for iPhone",
+        "price": "$59.95"
+    },
+    "7": {
+        "title": "iPhone FineWoven Wallet with MagSafe – Navy",
+        "price": "$59.00"
+    },
+    "8": {
+        "title": "iPhone 17 Pro Silicone Case with MagSafe – Orange",
+        "price": "$49.00"
+    },
+    "9": {
+        "title": "Crossbody Strap – Orange",
+        "price": "$59.00"
+    },
+    "10": {
+        "title": "iPhone 17 Pro Max TechWoven Case with MagSafe – Green",
+        "price": "$59.00"
+    },
+    "11": {
+        "title": "iPhone 17 Clear Case with MagSafe",
+        "price": "$49.00"
+    },
+    "12": {
+        "title": "iPhone Air Case with MagSafe – Shadow",
+        "price": "$49.00"
+    },
+    "13": {
+        "title": "iPhone 17e Clear Case with MagSafe",
+        "price": "$49.00"
+    },
+    "14": {
+        "title": "Beats iPhone 17 Rugged Case with MagSafe and Camera Control – Sierra Orange",
+        "price": "$79.00"
+    },
+    "15": {
+        "title": "Belkin UltraCharge Pro 3-in-1 Magnetic Charging Dock",
+        "price": "$149.95"
+    },
+    "16": {
+        "title": "MagSafe Charger (1 m)",
+        "price": "$39.00"
+    },
+    "17": {
+        "title": "Twelve South PowerClip Power Bank & Charger",
+        "price": "$39.95"
+    },
+    "18": {
+        "title": "240W USB-C Charge Cable (2 m)",
+        "price": "$29.00"
+    },
+    "19": {
+        "title": "40W Dynamic Power Adapter with 60W Max",
+        "price": "$39.00"
+    },
+    "20": {
+        "title": "iPhone Air MagSafe Battery",
+        "price": "$99.00"
+    },
+    "21": {
+        "title": "Belkin BoostCharge Pro Power Bank 10K with Apple Watch Charger",
+        "price": "$99.95"
+    },
+    "22": {
+        "title": "35W Dual USB-C Port Compact Power Adapter",
+        "price": "$59.00"
+    },
+    "23": {
+        "title": "mophie Roam 3‑in‑1 Travel Charger",
+        "price": "$149.95"
+    },
+    "24": {
+        "title": "USB-C to 3.5 mm Headphone Jack Adapter",
+        "price": "$9.00"
+    },
+    "25": {
+        "title": "PopSockets Kick-Out Grip & Stand (MagSafe compatible)",
+        "price": "$44.95"
+    },
+    "26": {
+        "title": "Tech21 FlexQuartz Case for iPhone 17 Pro (MagSafe compatible)",
+        "price": "$54.95"
+    },
+    "27": {
+        "title": "MOFT Snap Field MagSafe Wallet Stand",
+        "price": "$49.95"
+    },
+    "28": {
+        "title": "Scosche StrikeLine USB-C to USB-C Cable (2 m)",
+        "price": "$24.95"
+    },
+    "29": {
+        "title": "Beats iPhone 17 Kickstand Case with MagSafe and Camera Control – Pebble Pink",
+        "price": "$59.00"
+    },
+    "30": {
+        "title": "Nimble SharePower Portable Battery Charger",
+        "price": "$79.95"
+    },
+    "31": {
+        "title": "mophie Check Case for iPhone 17 Pro Max",
+        "price": "$59.95"
+    },
+    "32": {
+        "title": "Beats iPhone 17 Pro Rugged Case with MagSafe and Camera Control – Everest Black",
+        "price": "$79.00"
+    },
+    "33": {
+        "title": "Beats USB-C to USB-C Woven Cable (1.5 m / 5 ft) – Surge Stone",
+        "price": "$18.99"
+    },
+    "34": {
+        "title": "Belkin UltraGlass 2 Privacy Screen Protector for iPhone 17 Pro",
+        "price": "$44.95"
+    },
+    "35": {
+        "title": "mophie Loop AirTag Case",
+        "price": "$14.95"
+    },
+    "36": {
+        "title": "AirTag",
+        "price": "$29.00"
+    },
+    "37": {
+        "title": "AirTag FineWoven Key Ring – Fox Orange",
+        "price": "$35.00"
+    },
+    "38": {
+        "title": "mophie Loop AirTag Case (4 Pack)",
+        "price": "$49.95"
+    },
+    "39": {
+        "title": "AirTag 4 pack",
+        "price": "$99.00"
+    },
+    "40": {
+        "title": "mophie Knit Puck for AirTag (4 Pack)",
+        "price": "$64.95"
+    },
+    "41": {
+        "title": "mophie Knit Puck for AirTag",
+        "price": "$18.95"
+    },
+    "42": {
+        "title": "Herschel AirTag Charm",
+        "price": "$19.95"
+    },
+    "43": {
+        "title": "Tech21 EvoPop Case for AirTag (2 pack) – Gold & Clear",
+        "price": "$29.95"
+    },
+    "44": {
+        "title": "Tech21 EvoClear Case for AirTag",
+        "price": "$14.95"
+    }
 }

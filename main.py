@@ -10,11 +10,19 @@ headers = {
 resp = httpx.get(url, headers=headers)
 html = HTMLParser(resp.text)
 
-products = html.css(".as-pinwheel-tiletitle a")
+products = html.css("div.as-pinwheel-infosection")
 
 prod_dict = {}
 for num, product in enumerate(products):
-    entry = product.css_first("a.as-pinwheel-tilelink").text().strip()
+    price = product.css_first("span.as-pinwheel-pricecurrent").text().strip()
+
+    if not price:
+        price = None
+    
+    entry = {
+        "title": product.css_first("a.as-pinwheel-tilelink").text().strip(),
+        "price": price
+    }
     prod_dict[num] = entry
 
 with open("my_json.json", "w", encoding='utf-8') as file:
